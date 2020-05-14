@@ -1,0 +1,134 @@
+:root{
+    --primary-color:  #35424A;
+    --secondary-color: #E8491D;
+    --light-color: #fff;
+}
+
+
+.navbar-expand-lg{
+    background: var(--primary-color);
+    min-height:100px;
+}
+
+.navbar-brand{
+    font-size: 5rem;
+    color: var(--light-color);
+}
+.nav-item {
+    text-transform: uppercase;
+}
+.nav-link{
+    color: #c1c1c1;
+}
+#text-color{
+    color: var(--secondary-color);
+} 
+.active .nav-link{
+    color: var(--secondary-color);
+}
+
+.nav-link:hover{
+   color: #f1f1f1;
+}
+
+.navbar .navbar-toggler{
+    color: #444444;
+    background: var(--secondary-color);
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    color: var(--light-color);
+}
+
+.btn-outline-success{
+    color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+.btn-outline-success:hover{
+    color: var(--light-color) !important;
+    border-color: var(--secondary-color) !important;
+    background:#e57539 !important;
+}
+
+/* Our Service */
+.our-service .lead{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.our-service .btn-primary, .jumbotron  .btn-primary{
+    background: var(--secondary-color);
+    border: 2px solid var(--light-color);
+}
+
+.our-service .btn-primary,  .jumbotron  .btn-primary:hover{
+    background: #e57539;
+    border: 2px solid var(--light-color);
+}
+
+/* footer */
+footer{
+    background: var(--secondary-color);
+    text-align: center;
+}
+.social-media .nav-item{
+  padding: 0.7rem;
+  color: #fff;
+  position: relative;
+    left: 100px;
+}
+
+
+.social-media .nav-item:hover{
+    color: #55e0db;
+    cursor: pointer;
+}
+
+.form-group #news-letter{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+.jumbotron{
+    background: #9b8f92 !important;
+    color: #f1f1f1;
+}
+.jumbotron .lead{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+  /*Extra small devices (portrait phones, less than 576px)*/
+        /*No media query for `xs` since this is the default in Bootstrap*/
+
+        /*Small (-sm-) devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) {
+
+        }
+        /*Medium (-md-) devices (tablets, 768px and up)*/
+        @media (min-width: 768px) {
+
+        }
+        /*Large (-lg-) devices (desktops, 992px and up)*/
+        @media (min-width: 992px) {
+            .social-media .nav-item{
+                padding: 0.7rem;
+                color: #fff;
+                position: relative;
+                  left: 50px;
+              }
+        }
+        /*Extra large (-xl-) devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+        .social-media .nav-item{
+            padding: 0.7rem;
+            color: #fff;
+            position: relative;
+                left: 50px;
+            }
+        }
